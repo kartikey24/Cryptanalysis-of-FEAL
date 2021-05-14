@@ -295,6 +295,9 @@ int main(int argc, char **argv){
 		   }	  
     }
 
+    cout<<"found key K0: 0x"<<hex<<crackedKey0<<dec<<"\n";
+    cout<<"found key K0: 0x"<<hex<<crackedKey4<<dec<<"\n";
+    cout<<"found key K0: 0x"<<hex<<crackedKey5<<dec<<"\n";
     uint endTime = time(NULL);
     cout<<"Total time taken = "<<int(endTime-startTime)<<" seconds\n";
 
